@@ -1,4 +1,6 @@
 // Base class for common account details
+
+
 class Account {
     protected String accountNumber;
     protected String accountHolder;
@@ -39,6 +41,8 @@ class Account {
 }
 
 // using inheritance for fetching the data
+
+
 import java.io.*;
     // Derived class for saving account with additional methods
     class SavingsAccount extends Account {  //
@@ -58,6 +62,8 @@ import java.io.*;
         }
 
 // this is the main class
+
+
         import java.util.*;
 public class BankSystem  {
     public static void main(String[] args) {
